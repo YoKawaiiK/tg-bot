@@ -1,0 +1,27 @@
+{
+  "name": "tg-bot",
+  "version": "0.0.1",
+  "description": "node.js learn and learn create bot",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoKawaiiK/tg-bot.git"
+  },
+  "keywords": [
+    "tg",
+    "bot",
+    "node.js"
+  ],
+  "author": "YoKawaiiK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YoKawaiiK/tg-bot/issues"
+  },
+  "homepage": "https://github.com/YoKawaiiK/tg-bot#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
