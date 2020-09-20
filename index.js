@@ -5,15 +5,12 @@ const { Telegraf, Stage, session } = require('telegraf'),
 
 const middlewares = require('./middlewares/index'),
     router = require('./routers/index'),
-
     scenes = require('./scenes/index')
-
 
 // Code
 const bot = new Telegraf(process.env.BOT_TOKEN)
 
 const stage = new Stage([...scenes])
-
 
 bot
     // error handler
